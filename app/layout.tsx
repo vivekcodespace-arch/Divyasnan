@@ -5,6 +5,7 @@ import { LanguageProvider } from "@/components/language-context";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { WhatsAppFloat } from "@/components/whatsapp-float";
+import { AnnouncementBar } from "@/components/AnnouncementBar";
 
 const serif = Cormorant_Garamond({
   subsets: ["latin"],
@@ -74,6 +75,7 @@ export default function RootLayout({
     >
       <body className="min-h-dvh bg-cream-grain flex flex-col">
         <LanguageProvider>
+          <AnnouncementBar />
           <SiteHeader />
           <main className="flex-1">{children}</main>
           <SiteFooter />
