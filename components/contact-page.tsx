@@ -49,7 +49,7 @@ export function ContactPage() {
               </span>
               <div>
                 <p className="font-semibold text-maroon-deep">{t("contact.whatsapp")}</p>
-                <p className="text-sm text-ink/65">+91 99999 99999 · (placeholder)</p>
+                <p className="text-sm text-ink/65">+91 9279726893</p>
               </div>
             </a>
 
@@ -57,8 +57,8 @@ export function ContactPage() {
               <p className="text-xs font-semibold uppercase tracking-widest text-ink/55">
                 {t("contact.email")}
               </p>
-              <a href="mailto:seva@divyasnan.com" className="mt-1 block text-base font-medium text-maroon">
-                seva@divyasnan.com
+              <a href="mailto:connect4vivek@gmail.com" className="mt-1 block text-base font-medium text-maroon">
+                connect4vivek@gmail.com
               </a>
             </div>
 
@@ -66,8 +66,8 @@ export function ContactPage() {
               <p className="text-xs font-semibold uppercase tracking-widest text-ink/55">
                 {t("contact.phone")}
               </p>
-              <a href="tel:+919999999999" className="mt-1 block text-base font-medium text-maroon">
-                +91 99999 99999
+              <a href="tel:+919279726893" className="mt-1 block text-base font-medium text-maroon">
+                +91 9279726893
               </a>
             </div>
 
@@ -76,7 +76,7 @@ export function ContactPage() {
                 {t("contact.address")}
               </p>
               <p className="mt-1 text-sm leading-relaxed text-ink/80">
-                Divyasnan Seva Trust<br />
+                Divyasnan Sev Trust<br />
                 Near Har Ki Pauri<br />
                 Haridwar, Uttarakhand 249401
               </p>
