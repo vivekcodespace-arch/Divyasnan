@@ -107,7 +107,7 @@ export const dict = {
   },
   "pricing.tier.snan.name": { en: "Snan", hi: "स्नान" },
   "pricing.tier.snan.tagline": { en: "Basic photo-snan", hi: "मूल फोटो-स्नान" },
-  "pricing.tier.snan.price": { en: "₹ 501", hi: "₹ ५०१" },
+  "pricing.tier.snan.price": { en: "₹ 111", hi: "₹ १११" },
   "pricing.tier.snan.f1": { en: "Respectful dip of your photograph", hi: "फोटो का श्रद्धापूर्वक स्नान" },
   "pricing.tier.snan.f2": { en: "Short prayer with name & gotra", hi: "नाम-गोत्र सहित संक्षिप्त मंत्रोच्चार" },
   "pricing.tier.snan.f3": { en: "Photo proof", hi: "फोटो प्रमाण" },
@@ -115,7 +115,7 @@ export const dict = {
 
   "pricing.tier.aarti.name": { en: "Snan + Aarti", hi: "स्नान + आरती" },
   "pricing.tier.aarti.tagline": { en: "Most chosen", hi: "सर्वाधिक चयनित" },
-  "pricing.tier.aarti.price": { en: "₹ 1,251", hi: "₹ १,२५१" },
+  "pricing.tier.aarti.price": { en: "₹ 311", hi: "₹ ३११" },
   "pricing.tier.aarti.f1": { en: "Everything in Snan", hi: "स्नान की समस्त सेवाएँ" },
   "pricing.tier.aarti.f2": { en: "Sandhya Ganga aarti video on your behalf", hi: "आपकी ओर से संध्या गंगा आरती का वीडियो" },
   "pricing.tier.aarti.f3": { en: "Geo-tagged HD video", hi: "स्थान-अंकित HD वीडियो" },
@@ -123,7 +123,7 @@ export const dict = {
 
   "pricing.tier.sampurna.name": { en: "Sampurna Seva", hi: "सम्पूर्ण सेवा" },
   "pricing.tier.sampurna.tagline": { en: "Complete offering", hi: "पूर्ण समर्पण" },
-  "pricing.tier.sampurna.price": { en: "₹ 2,501", hi: "₹ २,५०१" },
+  "pricing.tier.sampurna.price": { en: "₹ 501", hi: "₹ ५०१" },
   "pricing.tier.sampurna.f1": { en: "Everything in Snan + Aarti", hi: "स्नान + आरती की समस्त सेवाएँ" },
   "pricing.tier.sampurna.f2": { en: "Sealed gangajal kalash to your home", hi: "घर तक मुहरबंद गंगाजल कलश" },
   "pricing.tier.sampurna.f3": { en: "Prasad & raksha-sutra by courier", hi: "कूरियर द्वारा प्रसाद व रक्षासूत्र" },

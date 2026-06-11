@@ -17,7 +17,7 @@ export const TIERS: Tier[] = [
     id: "snan",
     nameKey: "pricing.tier.snan.name",
     taglineKey: "pricing.tier.snan.tagline",
-    priceInr: 501,
+    priceInr: 111,
     priceKey: "pricing.tier.snan.price",
     featureKeys: [
       "pricing.tier.snan.f1",
@@ -30,7 +30,7 @@ export const TIERS: Tier[] = [
     id: "aarti",
     nameKey: "pricing.tier.aarti.name",
     taglineKey: "pricing.tier.aarti.tagline",
-    priceInr: 1251,
+    priceInr: 311,
     priceKey: "pricing.tier.aarti.price",
     featureKeys: [
       "pricing.tier.aarti.f1",
@@ -44,7 +44,7 @@ export const TIERS: Tier[] = [
     id: "sampurna",
     nameKey: "pricing.tier.sampurna.name",
     taglineKey: "pricing.tier.sampurna.tagline",
-    priceInr: 2501,
+    priceInr: 501,
     priceKey: "pricing.tier.sampurna.price",
     featureKeys: [
       "pricing.tier.sampurna.f1",
