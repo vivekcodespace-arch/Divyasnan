@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Divyasnan · दिव्यस्नान
+
+A holy dip, from your home. Marketing + booking site for the Divyasnan photo-snan seva.
+
+Built with Next.js (App Router) + TypeScript + Tailwind CSS v4. Bilingual (English + Hindi) with a persistent language toggle. No backend required.
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open <http://localhost:3000>.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Environment variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Copy `.env.example` to `.env.local` and fill in. The booking flow needs at least `NEXT_PUBLIC_BUSINESS_WHATSAPP` to actually deliver sankalps.
 
-## Learn More
+| Var | Required | Purpose |
+| --- | --- | --- |
+| `NEXT_PUBLIC_BUSINESS_WHATSAPP` | ✅ | Digits-only WhatsApp number that receives every sankalp (e.g. `919279726893`). Used to build the `wa.me` click-to-chat link. |
+| `NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME` | optional | Your Cloudinary cloud name. |
+| `NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET` | optional | An **unsigned** upload preset, created in the Cloudinary console (Settings → Upload → Add upload preset, Signing Mode = Unsigned). |
 
-To learn more about Next.js, take a look at the following resources:
+Cloudinary is optional — without it, the booking flow still works and the photograph is sent separately in the chat.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Sankalp delivery (no payment on the site)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The site does **not** collect money. The 6-step booking flow ends with **Confirm**:
 
-## Deploy on Vercel
+1. Photo (multi-upload, local preview).
+2. Devotee — name, gotra, sankalp, **customer WhatsApp number** (required).
+3. River / ghat.
+4. Seva tier.
+5. Review.
+6. **Confirm** — tap "Send sankalp on WhatsApp":
+   - Photos are uploaded to Cloudinary (if env vars are set).
+   - A prefilled WhatsApp message is opened to the business number.
+   - The customer taps Send. We receive everything.
+   - The customer is routed to the confirmation screen + Divya Snan Certificate.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Scripts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `npm run dev` — dev server
+- `npm run build` — production build
+- `npm start` — serve the production build
+- `npm run lint` — ESLint

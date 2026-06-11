@@ -1,0 +1,22 @@
+<svg viewBox="0 0 80 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diya motif">
+  <defs>
+    <radialGradient id="flame" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0%" stop-color="#FFF3C4"/>
+      <stop offset="60%" stop-color="#F2691E"/>
+      <stop offset="100%" stop-color="#7B1E1E"/>
+    </radialGradient>
+    <linearGradient id="bowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C9A227"/>
+      <stop offset="100%" stop-color="#7B1E1E"/>
+    </linearGradient>
+  </defs>
+  <!-- flame -->
+  <path d="M40,8 C32,22 30,32 40,46 C50,32 48,22 40,8 Z" fill="url(#flame)"/>
+  <ellipse cx="40" cy="36" rx="3" ry="6" fill="#FFFBF0" opacity="0.7"/>
+  <!-- wick -->
+  <rect x="38.5" y="46" width="3" height="6" fill="#5A1414"/>
+  <!-- bowl -->
+  <path d="M8,56 C8,78 72,78 72,56 Z" fill="url(#bowl)"/>
+  <ellipse cx="40" cy="56" rx="32" ry="6" fill="#7B1E1E"/>
+  <ellipse cx="40" cy="56" rx="28" ry="3.5" fill="#5A1414"/>
+</svg>

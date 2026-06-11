@@ -1,0 +1,65 @@
+<svg viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Divyasnan badge seal">
+  <defs>
+    <radialGradient id="bg_glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#FFFBF0"/>
+      <stop offset="100%" stop-color="#FFF6E6"/>
+    </radialGradient>
+    <linearGradient id="bg_ring" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C9A227"/>
+      <stop offset="100%" stop-color="#7B1E1E"/>
+    </linearGradient>
+    <linearGradient id="bg_drop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6FD0E3"/>
+      <stop offset="100%" stop-color="#0E6E86"/>
+    </linearGradient>
+    <linearGradient id="bg_lotus" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF3C4"/>
+      <stop offset="100%" stop-color="#FFC23C"/>
+    </linearGradient>
+    <path id="bg_circle_top"
+          d="M 30,160 a 130,130 0 0 1 260,0" fill="none"/>
+    <path id="bg_circle_bottom"
+          d="M 290,160 a 130,130 0 0 1 -260,0" fill="none"/>
+  </defs>
+
+  <!-- outer disk -->
+  <circle cx="160" cy="160" r="156" fill="url(#bg_glow)" stroke="url(#bg_ring)" stroke-width="3"/>
+  <!-- inner thin ring -->
+  <circle cx="160" cy="160" r="140" fill="none" stroke="#C9A227" stroke-opacity="0.45" stroke-width="1"/>
+  <circle cx="160" cy="160" r="135" fill="none" stroke="#7B1E1E" stroke-opacity="0.18" stroke-width="0.6"/>
+
+  <!-- top arc text -->
+  <text font-family="Cormorant Garamond, Playfair Display, Georgia, serif"
+        font-weight="600"
+        font-size="20"
+        letter-spacing="6"
+        fill="#7B1E1E">
+    <textPath href="#bg_circle_top" startOffset="50%" text-anchor="middle">DIVYASNAN · दिव्यस्नान</textPath>
+  </text>
+  <!-- bottom arc text -->
+  <text font-family="Cormorant Garamond, Playfair Display, Georgia, serif"
+        font-weight="500"
+        font-size="13"
+        letter-spacing="4"
+        fill="#7B1E1E" opacity="0.85">
+    <textPath href="#bg_circle_bottom" startOffset="50%" text-anchor="middle">A HOLY DIP · FROM YOUR HOME</textPath>
+  </text>
+
+  <!-- ornamental side dots -->
+  <circle cx="30" cy="160" r="3" fill="#C9A227"/>
+  <circle cx="290" cy="160" r="3" fill="#C9A227"/>
+
+  <!-- droplet -->
+  <g transform="translate(160,160)">
+    <path d="M0,-72 C0,-72 -42,-12 -42,28 a42,42 0 1 0 84,0 C42,-12 0,-72 0,-72 Z"
+          fill="url(#bg_drop)" stroke="#FFF6E6" stroke-width="4"/>
+    <!-- lotus -->
+    <g transform="translate(0,36)">
+      <path d="M0,0 C-7,-26 -20,-31 -20,-31 C-22,-15 -13,-4 0,0 Z" fill="url(#bg_lotus)"/>
+      <path d="M0,0 C7,-26 20,-31 20,-31 C22,-15 13,-4 0,0 Z" fill="url(#bg_lotus)"/>
+      <path d="M0,0 C-15,-23 -34,-20 -34,-20 C-32,-5 -17,2 0,0 Z" fill="#FFD56A"/>
+      <path d="M0,0 C15,-23 34,-20 34,-20 C32,-5 17,2 0,0 Z" fill="#FFD56A"/>
+      <path d="M0,2 C-8,-32 0,-38 0,-38 C8,-32 0,2 0,2 Z" fill="#FFF6E6"/>
+    </g>
+  </g>
+</svg>

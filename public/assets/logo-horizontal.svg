@@ -1,0 +1,50 @@
+<svg viewBox="0 0 520 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Divyasnan wordmark">
+  <defs>
+    <linearGradient id="hz_drop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6FD0E3"/>
+      <stop offset="100%" stop-color="#0E6E86"/>
+    </linearGradient>
+    <linearGradient id="hz_lotus" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF3C4"/>
+      <stop offset="100%" stop-color="#FFC23C"/>
+    </linearGradient>
+    <linearGradient id="hz_text" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7B1E1E"/>
+      <stop offset="100%" stop-color="#5A1414"/>
+    </linearGradient>
+  </defs>
+
+  <!-- mark -->
+  <g transform="translate(10,10)">
+    <path d="M60,4 C60,4 16,68 16,108 a44,44 0 1 0 88,0 C104,68 60,4 60,4 Z"
+          fill="url(#hz_drop)" stroke="#FFF6E6" stroke-width="4"/>
+    <g transform="translate(60,116)">
+      <path d="M0,0 C-7,-26 -20,-31 -20,-31 C-22,-15 -13,-4 0,0 Z" fill="url(#hz_lotus)"/>
+      <path d="M0,0 C7,-26 20,-31 20,-31 C22,-15 13,-4 0,0 Z" fill="url(#hz_lotus)"/>
+      <path d="M0,0 C-15,-23 -34,-20 -34,-20 C-32,-5 -17,2 0,0 Z" fill="#FFD56A"/>
+      <path d="M0,0 C15,-23 34,-20 34,-20 C32,-5 17,2 0,0 Z" fill="#FFD56A"/>
+      <path d="M0,2 C-8,-32 0,-38 0,-38 C8,-32 0,2 0,2 Z" fill="#FFF6E6"/>
+    </g>
+  </g>
+
+  <!-- wordmark -->
+  <g transform="translate(150,0)">
+    <text x="0" y="74"
+          font-family="Cormorant Garamond, Playfair Display, Georgia, serif"
+          font-weight="600"
+          font-size="62"
+          letter-spacing="1"
+          fill="url(#hz_text)">Divyasnan</text>
+    <text x="2" y="106"
+          font-family="Noto Serif Devanagari, serif"
+          font-weight="500"
+          font-size="22"
+          fill="#7B1E1E" opacity="0.85">दिव्यस्नान</text>
+    <!-- accent dot row -->
+    <g transform="translate(2,118)">
+      <circle cx="0" cy="0" r="2.4" fill="#C9A227"/>
+      <circle cx="14" cy="0" r="1.6" fill="#F2691E" opacity="0.6"/>
+      <circle cx="28" cy="0" r="1.6" fill="#0E6E86" opacity="0.6"/>
+    </g>
+  </g>
+</svg>
